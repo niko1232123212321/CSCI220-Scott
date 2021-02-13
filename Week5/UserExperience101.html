@@ -11,24 +11,54 @@
         body
         {
             background-color: rgb(65, 65, 75);
-            color:rgb(255,255,255)
+            color:rgb(255,255,255);
+            font-size: 18px;
         }
         
         img
         {
             border-radius: 10px;
+            border-right: ridge;
+            
             /*Huh, this put's a neat border around the image.*/
             /*Also, why does CSS have a completely different comment command?  That's kind of annoying.*/
+            
+           
         }
         table
         {
             border-color: rgb(255,255,255);
             background-color: rgb(95,95,95);
         }
+        .menu
+        {
+            border-style: ridge;
+            background-color: rgb(83, 49, 17);
+            font-size: 24px;
+            
+        }
+        a
+        {
+            color:rgb(255,255,255);
+           
+        }
+        a:visited
+        {
+            color: rgb(255,255,255) 
+        }
     </style>
 </head>
 <body>
-
+<div class="menu">
+    <ul>
+    <li>
+        <a href="UserExperience101.html">The Experiment</a>
+    </li>
+    <li>
+        <a href="fundingdisclosure.html">Funding Disclosure</a>
+    </li>
+    </ul>
+</div>
 
 
 
@@ -37,7 +67,9 @@
         This study seeks to determine if a correlation exists between the amount of caffeine an individual consumes daily and that individual's 
         <a href="https://en.wikipedia.org/wiki/Grading_in_education">grade point average</a> in school.</p>
         <!-- Suppose we could put an image between the steps to reproduce and the data results. -->
-    <img src="caffeine.jpg" title="A visual representation of a molecule of caffeine." height="344px" width="428px" align="left">
+    <div>
+        <img src="caffeine.jpg" title="A visual representation of a molecule of caffeine." height="344px" width="428px" align="left">
+    </div>
     <h1>Steps to Reproduce</h1>
     <!-- Ordered list here, use li tags to add to it when neccessary   -->
     <ol>
