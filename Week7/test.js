@@ -19,3 +19,9 @@ for(var counter = 1; counter <= 100; counter++)
     console.log(counter);
     }
 }
+
+let yeye = function(x) 
+{
+    //do the thing here.
+    return x * x; 
+}
