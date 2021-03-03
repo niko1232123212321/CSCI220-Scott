@@ -3,41 +3,246 @@
     <!--Alrighty, time to get to work on the midterm.  Some scaffolding will be nice-->
     <head>
     <title>Welcome!</title>
-    <link href="Styling.css" />
+    <link rel="stylesheet" href="Styling.css" />
     </head>
     <body>
         <!--Actually first, we should put a menu at the top of the page-->
-        <!-- First up, the first part of the page.  I think a simple welcome would be nice here.-->
+        <div class="menu">
+            <!--Menu goes here.  Users should be able to access the Main, Contact, About, and Events pages from here.-->
+
+            <a href="index.html" class="menuButton">Main</a>
+            <a href="about.html" class="menuButton">About</a>
+            <a href="events.html">Events</a>
+            <a href="Contact.html">Contact</a>
+
+        </div>
+        <!-- Alrighty.  After the menu, comes what the user's going to see first.-->
         <div>
-            <img>
+            <img> <!--Image of lotus sigil goes here-->
             <h1>Welcome to Warframe</h1>
-            <p>Put a description of what Warframe is here, and discuss what this page is for.</p>
+            <p>Warframe is a free to play game available for PC, Xbox One, PS4, and Nintendo Switch where you control various characters with diverse abilities.</p>
         </div>
         <!-- So, what's this next segment for?  Methinks the most used Warframes within a table would be nice to put here.-->
+        <!-- On Second thought, having the top 5 frames within a list may be a better way of doing this?-->
+        <!-- Even better.  Let's do both, yeah?-->
         <div>
-            <h1>Most used Frames</h1>
+            <h1>Most popular Frames</h1><!--Wow, this data is hard to find.  I'll have to do this later.-->
+            <p>While Warframe allows players a diverse range of various characters to play, a few stand out as favorites among the playerbase.  Here, I show a few that came up quite a few times while playing.</p>
             <h2>(Updated mm/dd/yyyy)</h2>
-            <table border="1">
-                <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Warframe</th>
-                    <th scope="col">Number of Missions Played</th>
-                    <th scope="col">Category of Frame</th>
-                    <th scope="col"></th>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Frame Name</td>
-                    <td>mission number</td>
-                    <td>category</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Second Frame Name</td>
-                    <td>Missions Played</td>
-                    <td>Frame Category</td>
-                </tr>
-            </table>
+            <div class="frame">
+                <h3>Mesa</br> <img src="placeholder1.png" class="frameImage"></h3>
+                
+                <table border="1" class="frameTable">
+                    <tr>
+                        <th scope="col">Mesa's Stats</th>
+                        <th scope="col">Normal Unranked</th>
+                        <th scope="col">Normal Max Rank</th>
+                        <th scope="col">Prime Unranked</th>
+                        <th scope="col">Prime Max Rank</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max HP</th>
+                        <td>125</td>
+                        <td>375</td>
+                        <td>135</td>
+                        <td>405</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Shields</th>
+                        <td>75</td>
+                        <td>225</td>
+                        <td>75</td>
+                        <td>225</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armor</th>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>125</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Energy</th>
+                        <td>100</td>
+                        <td>150</td>
+                        <td>125</td>
+                        <td>188</td>
+                    </tr>
+                </table>
+                <!--Table looks nice, probably going to copy-paste it throughout this page.-->
+                <!--Description time-->
+                <p>Mesa is easily considered one of the staple characters.  With abilities that Reflect enemy damage, along with abilities that boost the team's overall gun damage, Mesa allows for quick combat that decimates opponents faster than they can keep up with.</p>
+            </div>
+            <div class="frame">
+                <h3>Octavia</h3>
+                <img src="placeholder1.png" class="frameImage">
+                <table border="1" class="frameTable">
+                    <tr>
+                        <th scope="col">Octavia's Stats</th>
+                        <th scope="col">Normal Unranked</th>
+                        <th scope="col">Normal Max Rank</th>
+                        <th scope="col">Prime Unranked</th>
+                        <th scope="col">Prime Max Rank</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max HP</th>
+                        <td>100</td>
+                        <td>300</td>
+                        <td>100</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Shields</th>
+                        <td>75</td>
+                        <td>225</td>
+                        <td>100</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armor</th>
+                        <td>150</td>
+                        <td>150</td>
+                        <td>150</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Energy</th>
+                        <td>150</td>
+                        <td>225</td>
+                        <td>175</td>
+                        <td>262</td>
+                    </tr>
+                </table>
+                <p>Octavia is a frame that makes heavy use of all of her abilities to amplify the team's abilities while keeping enemies staggered, making them easier to take down.  Those who play Octavia frequently can keep the ability's active indefinitely, ensuring the timers on each ability never reach zero.</p>
+            </div>
+            <div class="frame">
+                <h3>Rhino</h3>
+                <img src="placeholder1.png" class="frameImage">
+                <table border="1" class="frameTable">
+                    <tr>
+                        <th scope="col">Rhino's Stats</th>
+                        <th scope="col">Normal Unranked</th>
+                        <th scope="col">Normal Max Rank</th>
+                        <th scope="col">Prime Unranked</th>
+                        <th scope="col">Prime Max Rank</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max HP</th>
+                        <td>100</td>
+                        <td>300</td>
+                        <td>100</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Shields</th>
+                        <td>150</td>
+                        <td>450</td>
+                        <td>150</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armor</th>
+                        <td>225</td>
+                        <td>225</td>
+                        <td>275</td>
+                        <td>275</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Energy</th>
+                        <td>100</td>
+                        <td>150</td>
+                        <td>100</td>
+                        <td>150</td>
+                    </tr>
+                </table>
+                <p>While most Warframes may be heavily reliant on abilities, many of Rhino's benefits come from his high armor stat and his ability iron skin, which negates most damage done directly to him.  In addition, earning him is relatively easy, as his parts drop within one of the first boss missions required to complete within the game</p>
+            </div>
+            <div class="frame">
+                <h3>Wukong</br><img src="placeholder1.png" class="frameImage"></h3>
+             
+                <table border="1" class="frameTable">
+                    <tr>
+                        <th scope="col">Wukong's Stats</th>
+                        <th scope="col">Normal Unranked</th>
+                        <th scope="col">Normal Max Rank</th>
+                        <th scope="col">Prime Unranked</th>
+                        <th scope="col">Prime Max Rank</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max HP</th>
+                        <td>150</td>
+                        <td>450</td>
+                        <td>150</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Shields</th>
+                        <td>100</td>
+                        <td>300</td>
+                        <td>120</td>
+                        <td>360</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armor</th>
+                        <td>250</td>
+                        <td>250</td>
+                        <td>275</td>
+                        <td>275</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Energy</th>
+                        <td>120</td>
+                        <td>180</td>
+                        <td>130</td>
+                        <td>195</td>
+                    </tr>
+                </table>
+                <p>With Wukong's first ability, he gains a clone that's fights alongside him, allowing twice the amount of damage to be dealt to the enemy.  While this ability is very powerful, his last ability allows him to summon an Iron Staff, a weapon that deals tremendous damage.  When combined with his clone, this easily decimates any target placed before him.</p>
+            </div>
+            <div class="frame">
+                <h3>Wisp</h3>
+                <img src="placeholder1.png" class="frameImage">
+                <table border="1" class="frameTable">
+                    <tr>
+                        <th scope="col">Wisp's Stats</th>
+                        <th scope="col">Normal Unranked</th>
+                        <th scope="col">Normal Max Rank</th>
+                        <th scope="col">Prime Unranked</th>
+                        <th scope="col">Prime Max Rank</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max HP</th>
+                        <td>100</td>
+                        <td>300</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Shields</th>
+                        <td>75</td>
+                        <td>225</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Armor</th>
+                        <td>175</td>
+                        <td>175</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Max Energy</th>
+                        <td>200</td>
+                        <td>300</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                </table>
+                <p>While Wisp doesn't have a Prime variant like many other Warframes, her ability to increase teammate's attack speed, sprint speed, and max health make Wisp a perfect support frame to aid your team.</p>
+            </div>
         </div>
+
+        <!--<video autoplay="autoplay" loop="true" src="rat.mp4"></video>-->
     </body>
 </html>
