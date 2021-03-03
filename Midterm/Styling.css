@@ -24,6 +24,7 @@ table, tr, td, th /*Need all parts of the table to have these attributes.  Well,
     border-top-color: #d30000;
     border-left-color: #910000;
     border-bottom-color: #910000;
+    background-color: white;
   
 }
 .menu a:hover
@@ -44,10 +45,15 @@ a:visited
 {
     color: #c99037;
 }
+h3
+{
+    float:left;
+}
 h1, h2, h3, p
 {
     font-family: 'Michroma', sans-serif;
 }
+
 video
 {
     position: fixed;
@@ -63,7 +69,10 @@ video
     border-top-color: #d30000;
     border-left-color: #910000;
     border-bottom-color: #910000;
-    float:right;
+    background-color: rgba(255,255,255,255);
+    float:left;
+    height: 100px;
+   padding: 70px 0;
 }
 .frameImage
 {
@@ -78,8 +87,4 @@ video
 .frame p
 {
     float: right;
-}
-.frame h3
-{
-    
 }
