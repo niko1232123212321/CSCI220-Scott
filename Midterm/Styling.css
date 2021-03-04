@@ -54,15 +54,6 @@ h1, h2, h3, p
     font-family: 'Michroma', sans-serif;
 }
 
-video
-{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    
-}
 .frameTable
 {
     border-right-color: #d30000;
@@ -72,7 +63,9 @@ video
     background-color: rgba(255,255,255,255);
     float:left;
     height: 100px;
-   padding: 70px 0;
+    /*Margins were used to align the table with the image, so that the table didn't encroach on the header's territory.*/
+    margin-left: 5px;
+    margin-top: 45px;
 }
 .frameImage
 {
@@ -84,7 +77,24 @@ video
   margin-bottom: 10px;
   
 }
+img
+{
+    border-style: solid;
+    border-radius: 10px;
+    border-top-color: #d30000;
+    border-right-color: #d30000;
+    border-bottom-color: #910000;
+    border-left-color: #910000;
+}
 .frame p
 {
     float: right;
+}
+textarea
+{
+    resize: none;
+}
+.frameHead
+{
+    padding-right: 500px;
 }
