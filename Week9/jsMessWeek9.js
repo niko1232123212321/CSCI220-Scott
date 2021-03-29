@@ -1,11 +1,3 @@
-//Alrighty boys, we have an objective
-//Create Dog class
-//Add setter method description, to assign values to the property
-//Add getter method description, to return the values in a sentence.
-//Create an object using Dog class
-//Set the description
-//Log the description sentence to the console by calling the yourDog.description property
-
 //Create class
 class Dog 
 {
@@ -34,8 +26,15 @@ class Dog
 
 }
 
-//Instantiate the Class.
-let yourDog = new Dog();
+try
+{
+    //Instantiate the Class.
+    let yourDog = new Dog();
 
-//Show description.
-console.log(yourDog.description);
+    //Show description.
+    console.log(yourDog.description);
+}
+catch
+{
+    console.error("Oy, one of your variables probably isn't");
+}
