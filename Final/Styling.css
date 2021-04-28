@@ -1,0 +1,65 @@
+ /*Help from tailwind toolbox to find the proper look and style for things.*/
+body
+{
+    background-color: rgb(100, 100, 100);
+    font-family: 'Times New Roman', Times, serif;
+}
+.shoppingCart, .subtotal
+{
+   
+    color: #4a5568;            
+    padding-left: 1rem;         
+    padding-right: 1rem;       
+    padding-top: .5rem;         
+    padding-bottom: .5rem;         
+    line-height: 1.25;             
+    border-width: 2px;            
+    border-radius: .25rem;         
+    border-color: #edf2f7;         
+    background-color: #edf2f7; 
+}
+h1
+{
+    color: white;
+}
+td
+{
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.btnRemove
+{
+    color: #fff;               
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);    
+    font-weight: 700;                    
+    border-radius: .25rem;                
+    background: #d86666;       
+    border: 1px solid transparent;        
+}
+th
+{
+    color: #641b1b;
+    text-align: center;
+}
+.picture0
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+.picture1
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+.picture2
+{
+    max-width: 80px;
+    max-height: 80px;
+}
+.picture3
+{
+    max-width: 80px;
+    max-height: 80px;
+}

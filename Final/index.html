@@ -3,27 +3,31 @@
 <html>
     <head>
         <title></title>
-        <link rel="" href="Styling.css" />
+        <link rel="stylesheet" href="Styling.css" />
     </head>
     <body>
         <script src="items.js"></script>
         <script src="../jquery-3.6.0.js"></script>
-        <div id="topBanner">
-            <p>Store   <br />  Checkout</p>
+        <h1>Shopping Cart</h1>
+     
+        <div class="shoppingCart" id="itemA">
+           <table id="itemTable" class="shoppingCartTable">
+                <tr>
+                    <th scope="col">Item Image</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Product Description</th>
+                    <th scope="col">Manufacturer</th>
+                    <th scope="col">item ID</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Amount Available</th>
+                    <th scope="col"></th>
+                </tr>  
+           </table>
         </div>
-        <h1>Store Front</h1>
-        <div id="">
-            <img>
-            <h3>item name</h3>
-            <p>item description</p>
-            <p>item price</p>
-            <p>quantity</p>
-            <form>
-                
-                <input name="add" type="button" value="Add to Cart">
-            </form>
-            
-            
+        
+        <div class="subtotal" id= "subtotal">
+            <p>Subtotal: </p>
         </div>
         <script src="newJavaPleaseChangeTheNameLater.js"></script>
     </body>
